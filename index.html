@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>IPL Quiz Game</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="quiz-container">
+    <header>
+      <img src="https://www.pngall.com/wp-content/uploads/2017/04/Indian-Premier-League-Logo-2017.png" alt="IPL Logo" class="logo">
+      <h1>IPL Quiz Battle</h1>
+      <div class="scoreboard">
+        🏏 Score: <span id="score">0</span>
+      </div>
+    </header>
+    <div id="timer"></div>
+
+    <div id="question-container">
+      <h2 id="question">Loading...</h2>
+      <div id="answers"></div>
+    </div>
+
+    <div class="footer">
+      <button id="nextBtn" onclick="nextQuestion()">Next</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
